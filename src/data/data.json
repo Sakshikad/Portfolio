@@ -1,0 +1,85 @@
+{
+    "about":[
+        {
+            "name":"Frontend Developer",
+            "about":"I'm a frontend developer with experience in building responsive and optimized sites"
+
+        },
+        {   
+            "name":"Backend Developer",
+            "about": "Proficiency in server-side programming languages such as JavaScript (Node.js)"
+        },
+        {      
+            "name":"Database Management",
+            "about":"Knowledge of database design principles and normalization, proficiency in writing and optimizing SQL queries, and designing and building RESTful APIs."
+
+        }
+    ],
+    "experience":[
+        {
+            "role":"Web Developer",
+            "organisation": " PICT",
+            "startDate": "Dec, 2021",
+            "endDate": "April, 2022",
+            "experiences": ["Work on HTML, CSS, JavaScript, PHP, and MySQL ", "Proficient in creating responsive web pages, building dynamic applications, and managing databases,"]
+        },
+        {
+            "role":"Web Developer",
+            "organisation": " Search In",
+            "startDate": "May, 2022",
+            "endDate": "Sept, 2022",
+            "experiences": ["Work on HTML, CSS, JavaScript, React, and Node.js", "focusing on developing user-friendly interfaces and dynamic features."]
+        }
+    ],
+
+    "skills":
+    [
+        {
+          "title": "HTML",
+          "imageSrc": "skills/html.png"
+        },
+        {
+          "title": "CSS",
+          "imageSrc": "skills/css.png"
+        },
+        {
+          "title": "React",
+          "imageSrc": "skills/react.png"
+        },
+        {
+          "title": "Node",
+          "imageSrc": "skills/node.png"
+        },
+        {
+          "title": "Php",
+          "imageSrc": "skills/php.png"
+        },
+        {
+          "title": "MySql",
+          "imageSrc": "skills/mysql.png"
+        }
+      ],
+
+      "projects":
+      [
+        {
+          "title": "Online Scrap Selling System",
+          "imageSrc": "projects/project.png",
+          "description": "This is Responsive website facilitating seamless scrap disposal for users",
+          "skills": ["Html","CSS","PHP", "Javascript", "SQL"],
+          "demo": "https://www.example.com",
+          "source": "https://github.com/Sakshikad/OnlineRaddiwala.github.io"
+        },
+        {
+          "title": "Grocery Store Management",
+          "imageSrc": "projects/project.png",
+          "description": "This is Responsive website help user buy and manage their grocery",
+          "skills": ["Html","CSS","Flask","Javascript", "SQL"],
+          "demo": "https://www.example.com",
+          "source": "https://github.com/Sakshikad/GroceryManagementSystem"
+        }
+      ]
+
+}
+
+
