@@ -19,7 +19,7 @@ export const About = () => {
                             return (       
                                     <div className={styles.aboutItems} key={id}>
                                         <div className={styles.aboutItem}>
-                                        <img src={getImageUrl("about/uiIcon.png")} alt="Cursor icon" />
+                                        <img  className={styles.aboutIcon}src={getImageUrl("about/uiIcon.png")} alt="Cursor icon" />
                                             <div className={styles.aboutItemText}  >
                                                 <h3> {skill.name}</h3>
                                                 <p>{skill.about}</p>

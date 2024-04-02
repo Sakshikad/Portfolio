@@ -20,7 +20,6 @@
   width: 100%;
   max-width: 600px;
   margin-bottom: 20px;
-  /* text-align: center; */
   align-items: flex-start; 
 }
 
@@ -114,40 +113,75 @@
 @media screen and (max-width: 830px) {
   .container {
     align-items: center;
-    /* text-align: center; */
   }
-  .content{
-    display: flex;
+
+  .content {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    /* text-align: center; */
+    align-items: flex-start;
   }
-  .textContent{
-    /* display: flex;
-    justify-content: center; */
+
+  .textContent {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    text-align: center;
+    text-align:center;
   }
-  .textContent .links{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: start;
-  }
-  .links .link {
-    display: flex;
+  
+  .textContent .links {
     justify-content: center;
   }
-  .link .imgs{
+  .iconLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link .imgs {
     margin-right: 20px;
   }
 
-  
-  .formContainer{
+  .formContainer {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .textContent p {
+    font-size: 18px;
+  }
+  .link a {
+    font-size: 18px;
+  }
+  .link img{
+    width: 20px;
+  }
+  .contact input,
+  .contact textarea {
+    font-size: 16px; 
+  }
+
+  .formContainer {
+    padding: 10px; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .textContent p {
+    font-size: 18px; 
+  }
+  .link a {
+    font-size: 18px;
+  }
+  .link img{
+    width: 20px;
+  }
+  .links .link{
+    justify-content: flex-start;
+  }
+  .contact input,
+  .contact textarea {
+    font-size: 16px; 
   }
 }

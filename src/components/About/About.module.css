@@ -69,12 +69,16 @@
   font-size: 20px;
   font-weight: 400;
 }
+.aboutIcon {
+  width: 50px; 
+}
 
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
     padding-left: 0;
     padding-right: 0;
+    margin-top: 20px; 
   }
 
   .content {
@@ -92,5 +96,61 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+  }
+  .aboutIcon {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px; 
+  }
+
+  .aboutItems {
+    gap: 25px; 
+  }
+
+  .aboutItem {
+    padding: 15px; 
+  }
+
+  .aboutIcon {
+    width: 40px; 
+  }
+
+  .aboutItem h3 {
+    font-size: 20px; 
+  }
+
+  .aboutItem p {
+    font-size: 20px; 
+  }
+
+}
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .aboutItems {
+    gap: 20px;
+  }
+
+  .aboutItem {
+    padding: 15px;
+  }
+
+  .aboutIcon {
+    width: 30px;
+  }
+
+  .aboutItem h3 {
+    font-size: 20px;
+  }
+
+  .aboutItem p {
+    font-size: 18px;
   }
 }
